@@ -1,7 +1,14 @@
+import "./Nav.css";
+import { Link } from "react-router-dom";
+
 function Nav() {
-    return <nav>
-      <h2>Nav</h2>
-    </nav>;
-  }
-  
-  export default Nav;
+  return (
+    <nav>
+      <Link to="/">Home</Link>
+      <Link to="/about">About</Link>
+      <Link to="/contact">Contact</Link>
+    </nav>
+  );
+}
+
+export default Nav;

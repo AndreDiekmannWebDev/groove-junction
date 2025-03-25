@@ -1,9 +1,9 @@
-function Jazz() {
+function Impressum() {
   return (
     <div className="page-container">
-      <h2>Jazz</h2>
+      <h2>Impressum</h2>
     </div>
   );
 }
 
-export default Jazz;
+export default Impressum;

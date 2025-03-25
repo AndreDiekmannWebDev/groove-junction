@@ -12,11 +12,7 @@ function App() {
   return (
     <Router>
       <>
-        <nav>
-          <Link to="/">Home</Link>
-          <Link to="/about">About</Link>
-          <Link to="/contact">Contact</Link>
-        </nav>
+        <Nav />
 
         <Routes>
           <Route path="/" element={<Home />} />
@@ -27,10 +23,7 @@ function App() {
           <Route path="*" element={<NotFound />} />
         </Routes>
 
-        <footer>
-          <Link to="/impressum">Impressum</Link>
-          <Link to="/privacy">Privacy</Link>
-        </footer>
+        <Footer />
       </>
     </Router>
   );

@@ -1,7 +1,13 @@
+import "./Footer.css";
+import { Link } from "react-router-dom";
+
 function Footer() {
-    return <footer>
-      <h2>Footer</h2>
-    </footer>;
-  }
-  
-  export default Footer;
+  return (
+    <footer>
+      <Link to="/impressum">Impressum</Link>
+      <Link to="/privacy">Privacy</Link>
+    </footer>
+  );
+}
+
+export default Footer;
